@@ -18,9 +18,3 @@ You will also need access to an MQTT broker (or start your own with EMQx, Mosqui
 
 Both the sign and controller publish and listen to two different topics (in my case, RandomTopic/cmd and RandomTopic/response)
 the "cmd" topic is only for the controller to send the various commands. The "response" topic is used as an acknowledgement for an LED to give you the status of the sign.
-
-_____________________________________
-|            |  PUB     |  SUB      |
-| controller |  cmd     |  response |
-| sign       | response |  cmd      |
--------------------------------------
