@@ -8,7 +8,7 @@
 #include <Adafruit_NeoPixel.h>
 #include <SPI.h>
 #define PIN 12
-#define NUMPIXELS 50
+
 
 // Network & MQTT Settings **EDIT**---------------
 
